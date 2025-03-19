@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: hsl(45, 40%, 94%);
 }
 
 
@@ -27,7 +27,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/BEYdance.png');
+    background-image: url('img/BEY1ato.webp');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
