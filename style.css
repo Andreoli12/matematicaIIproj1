@@ -140,3 +140,22 @@ h2 {
 .form-control {
     background-color: #f6f3ea;
 }
+
+:root {
+    --laranja-claro: hsl(26, 33%, 38%);
+    --alto-contraste-fundo: hsl(0, 10%, 59%);
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: hsl(49, 7%, 42%);
+}
+
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
